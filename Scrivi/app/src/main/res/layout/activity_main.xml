@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/margPiso"
+    android:paddingTop="@dimen/margTop"
+    android:paddingLeft="@dimen/margEsq"
+    android:paddingRight="@dimen/margDir"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idNome"
+                android:hint="@string/labelNome"
+                android:inputType="textCapWords"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idNascimento"
+                android:hint="@string/labelNascimento"
+                android:inputType="date"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idPhone"
+                android:hint="@string/labelPhone"
+                android:inputType="phone"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idEmail"
+                android:hint="@string/labelEmail"
+                android:inputType="textEmailAddress"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idDescritor"
+                android:hint="@string/labelDescritor"
+                android:inputType="textMultiLine"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idButton"
+                android:text="@string/labelSeguinte"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/espPiso"
+                android:textColor="@color/colorTexto"
+                android:background="@color/colorBack"
+                android:onClick="onClick"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="@dimen/margTop"
+    android:paddingBottom="@dimen/margPiso"
+    android:paddingLeft="@dimen/margEsq"
+    android:paddingRight="@dimen/margDir"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShowDetales">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTxvNome"
+        android:text="@string/labelTxvNome"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTxvNascimento"
+        android:text="@string/labelTxvNascimento"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTxvPhone"
+        android:text="@string/labelTxvPhone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTxvEmail"
+        android:text="@string/labelTxvEmail"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTxvDescritor"
+        android:text="@string/labelTxvDescrito"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonEditar"
+        android:text="@string/labelEditar"
+        android:layout_marginTop="@dimen/espPiso"
+        android:onClick="editar"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>

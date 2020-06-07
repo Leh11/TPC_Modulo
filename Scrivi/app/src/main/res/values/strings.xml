@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Scrivi</string>
+    <string name="labelNascimento">Data nascimento</string>
+    <string name="labelNome">Digite nome</string>
+    <string name="labelPhone">Digite contato</string>
+    <string name="labelDescritor">Descreva contato</string>
+    <string name="labelEmail">Digite email</string>
+    <string name="labelSeguinte">Seguinte</string>
+    <string name="labelEditar">Editar</string>
+    <string name="labelTxvNome">ShowNome</string>
+    <string name="labelTxvNascimento">ShowNascimento</string>
+    <string name="labelTxvPhone">ShowPhone</string>
+    <string name="labelTxvDescrito">ShowDesc</string>
+    <string name="labelTxvEmail">ShowEmail</string>
+</resources>
